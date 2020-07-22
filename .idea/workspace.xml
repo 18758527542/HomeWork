@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d784ead-7efa-4d2a-9d90-39135bea5922" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/day02/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01/Test01OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01/Test03OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day01/Test04OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/Test01OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/Test02OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/Test03OK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/Test04OK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day01/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day01/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day01/Test02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day01/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day01/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day01/Test05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day01/Test05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day02/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day03/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Test03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Test04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/day03/Test05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/day03/Test05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Test05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/PersonOK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Test03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Test04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/Test05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +54,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaStudy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,9 +66,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager">
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.Test01" />
+  <component name="RunManager" selected="Application.Test05">
+    <configuration name="Test01OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01.Test01OK" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
@@ -45,9 +80,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Test01OK" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Test02OK" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test03OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Test03OK" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test04OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01.Test04OK" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test04OK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Test04OK" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.Test05" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.Test05" />
+        <item itemvalue="Application.Test04OK" />
+        <item itemvalue="Application.Test03OK" />
+        <item itemvalue="Application.Test02OK" />
+        <item itemvalue="Application.Test01OK" />
       </list>
     </recent_temporary>
   </component>
@@ -61,8 +178,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595323427230</updated>
-      <workItem from="1595323428609" duration="2143000" />
+      <workItem from="1595323428609" duration="10865000" />
     </task>
+    <task id="LOCAL-00001" summary="这是我的作业">
+      <created>1595327865971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595327865971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,11 +197,57 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="这是我的作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是我的作业" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="647" y="273" key="#Notifications" timestamp="1595328008158">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="273" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1595328008158" />
+    <state x="510" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1595332755176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595332755176" />
+    <state x="439" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595332639102">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1595332639102" />
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1595327864653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595327864653" />
+    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1595333658561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595333658561" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1595336425603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595336425603" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1595336425603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595336425603" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1595336425603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595336425603" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1595336425603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595336425603" />
     <state x="262" y="56" key="SettingsEditor" timestamp="1595323789155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="262" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595323789155" />
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2" timestamp="1595327935664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595327935664" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595335014116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595335014116" />
   </component>
 </project>
