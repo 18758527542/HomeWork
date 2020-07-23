@@ -27,6 +27,11 @@ public class PersonOK {
         this.salary = salary;
     }
 
+    public static void main(String[] args) {
+        PersonOK person = new PersonOK("张三", 25, "男", 5000);
+        System.out.println(person.toString());
+    }
+
     @Override
     public String toString() {
         return name + "," + age + "," + gender + "," + salary;

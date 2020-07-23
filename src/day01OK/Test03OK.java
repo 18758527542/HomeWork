@@ -1,4 +1,4 @@
-package day01;
+package day01OK;
 
 import java.util.Scanner;
 
@@ -26,18 +26,13 @@ public class Test03OK {
      * 判读该方法是否是回文
      *
      * @param str 需要判断的字符串
-     * @return true表示是回文，false表示不是回文
      */
-    public static boolean check(String str) {
-        for (int i = 0; i < str.length() / 2; i++) {
-            char char1 = str.charAt(i);
-            char char2 = str.charAt(str.length() - 1 - i);
-            if (char1 != char2) {
-                System.out.println("该字符串不是回文！");
-                return false;
-            }
+    public static void check(String str) {
+        StringBuilder sb = new StringBuilder(str);
+        if (sb.toString().equals(sb.reverse().toString())) {
+            System.out.println("您输入的字符串是回文！");
+        } else {
+            System.out.println("不是！");
         }
-        System.out.println("该字符串是回文！");
-        return true;
     }
 }

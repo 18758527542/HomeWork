@@ -16,14 +16,15 @@ import java.util.Scanner;
  *
  * @author Bonnie
  */
-public class Test05 {
+public class Test05OK {
     public static void main(String[] args) throws ParseException {
         Scanner console = new Scanner(System.in);
         System.out.print("请输入您的身份证号码：");
         String string1 = console.nextLine();
-        if (string1.length() != 18) {
+        String regex = "^\\d{17}[0-9X]$";
+        if (!string1.matches(regex)) {
             System.out.println("您输入的格式错误！");
-
+            System.exit(0);
         }
         String string2 = string1.substring(6, 14);
         System.out.println(string2);

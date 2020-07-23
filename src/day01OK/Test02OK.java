@@ -1,4 +1,4 @@
-package day01;
+package day01OK;
 
 /**
  * 将"大家好!"修改为:"大家好!我是程序员!"并输出。
@@ -9,8 +9,16 @@ package day01;
  * @author Bonnie
  * 使用StringBuilder完成
  */
-public class Test02 {
+public class Test02OK {
     public static void main(String[] args) {
-
+        StringBuilder sb = new StringBuilder("大家好！");
+        sb.append("我是程序员！");
+        System.out.println(sb);
+        sb.insert(6, "优秀的");
+        System.out.println(sb);
+        sb.replace(6, 8, "牛牛");
+        System.out.println(sb);
+        sb.delete(0, 4);
+        System.out.println(sb);
     }
 }

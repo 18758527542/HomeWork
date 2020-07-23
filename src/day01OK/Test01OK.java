@@ -1,4 +1,4 @@
-package day01;
+package day01OK;
 
 /**
  * 1:输出字符串"HelloWorld"的字符串长度
