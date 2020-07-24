@@ -1,4 +1,4 @@
-package day02;
+package day02OK;
 
 import java.util.Objects;
 
@@ -29,7 +29,10 @@ public class PersonOK {
 
     public static void main(String[] args) {
         PersonOK person = new PersonOK("张三", 25, "男", 5000);
+        PersonOK person1 = new PersonOK("张三", 21, "女", 4000);
         System.out.println(person.toString());
+        System.out.println(person1.toString());
+        System.out.println(person.equals(person1));
     }
 
     @Override

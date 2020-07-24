@@ -1,7 +1,6 @@
 package day04;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * 创建一个List集合(ArrayList,LinkedList均可)
@@ -13,9 +12,17 @@ import java.util.Arrays;
  *
  * @author Bonnie
  */
-public class Test03 {
+public class Test03OK {
     public static void main(String[] args) {
-        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList("one", "two", "three", "four"));
-        
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("one");
+        arrayList.add("two");
+        arrayList.add("three");
+        arrayList.add("four");
+        System.out.println(arrayList.get(1));
+        arrayList.set(2,"3");
+        arrayList.add(1,"2");
+        arrayList.remove(2);
+        System.out.println(arrayList);
     }
 }
