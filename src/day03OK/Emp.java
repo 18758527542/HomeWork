@@ -1,4 +1,4 @@
-package day05;
+package day03OK;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -16,21 +16,16 @@ import java.util.Objects;
  * 定义toString方法，格式如:
  * 姓名:张三,年龄:25,性别:男,薪资:5000,入职时间:2006-02-15
  * <p>
- * 定义equals方法，要求名字以及年龄相同，则认为内容一致。
- * <p>
- * 实现Comparable接口，并重写抽象方法comparaTo()，比较规则为年龄小的人小。
+ * 定义equals方法，要求只要名字相同，则认为内容一致。
  *
  * @author Bonnie
  */
-
-
-//还没写完比较
-public class Emp implements Comparable {
+public class Emp {
     private String name;
     private int age;
     private String gender;
     private int salary;
-    private Date hiredate;
+    private Date hiredate;//入职时间
     private String date;
 
     public Emp(String name, int age, String gender, int salary, Date hiredate) {
@@ -44,11 +39,6 @@ public class Emp implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        return 0;
-    }
-
-    @Override
     public String toString() {
         return "姓名:" + name + ",年龄:" + age + ",性别:" + gender + ",薪资:" + salary + ",入职时间:" + date;
     }
@@ -58,12 +48,12 @@ public class Emp implements Comparable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Emp emp = (Emp) o;
-        return age == emp.age && Objects.equals(name, emp.name);
+        return name.equals(emp.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, age, gender, salary, hiredate, date);
+        return Objects.hash(name, age, gender, salary);
     }
 
     public String getName() {
@@ -104,13 +94,5 @@ public class Emp implements Comparable {
 
     public void setHiredate(Date hiredate) {
         this.hiredate = hiredate;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
     }
 }
