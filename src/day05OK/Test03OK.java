@@ -1,11 +1,8 @@
-package day05;
+package day05OK;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * 要求用户输入若干员工信息，格式为：
@@ -14,13 +11,13 @@ import java.util.Scanner;
  * 张三,25,男,5000,2006-02-15;李四,26,女,6000,2007-12-24;...
  * 然后将每个员工信息解析成Emp对象。并存入到一个List集合中。
  * 并对集合排序，然后输出每个员工信息。
- * 
+ * <p>
  * 再根据员工的入职时间排序，入职晚的在前，早的在后并
  * 输出每个员工的信息。
- * @author Bonnie
  *
+ * @author Bonnie
  */
-public class Test03 {
+public class Test03OK {
     public static void main(String[] args) throws ParseException {
         Scanner console = new Scanner(System.in);
         System.out.println("请输入员工的个人信息:(每个员工用;隔开)");
@@ -43,6 +40,14 @@ public class Test03 {
             Emp person = new Emp(name, age, gender, salary, hiredate);
             list.add(person);
         }
+        list.sort(new Comparator<Emp>() {
+            @Override
+            public int compare(Emp o1, Emp o2) {
+                long time1 = o1.getHiredate().getTime();
+                long time2 = o2.getHiredate().getTime();
+                return (int) (time1 - time2);
+            }
+        });
         System.out.println(list);
     }
 }

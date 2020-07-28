@@ -35,8 +35,6 @@ public class Test01OK {
      * <p>
      * test2实现:2:输出"HelloWorld"中"o"的位置
      * 以此类推。
-     *
-     * @param str
      */
     public static void test1(String str) {
         System.out.println(str.length());
@@ -68,7 +66,7 @@ public class Test01OK {
     }
 
     public static void test7(String str) {
-        System.out.println(str.charAt(6));
+        System.out.println(str.charAt(5));
     }
 
     public static void test8(String str) {

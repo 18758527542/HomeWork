@@ -1,4 +1,4 @@
-package day05;
+package day05OK;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -25,7 +25,7 @@ import java.util.Objects;
 
 
 //还没写完比较
-public class Emp implements Comparable {
+public class Emp implements Comparable{
     private String name;
     private int age;
     private String gender;
